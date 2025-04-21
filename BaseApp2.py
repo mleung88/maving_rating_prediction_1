@@ -1,3 +1,6 @@
+import streamlit as st
+import openai
+
 # Title
 st.title("🎬 Movie Rating Predictor")
 st.write("Enter a movie summary and get a predicted IMDb rating.")
